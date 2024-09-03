@@ -1,14 +1,14 @@
 package org.designpattern.structural.Decorator;
 
-public class VeggiePizzaDecorator extends PizzaDecorator{
+public class CheezePizzaDecorator extends PizzaDecorator{
 
-    public VeggiePizzaDecorator(Pizza pizza) {
+    public CheezePizzaDecorator(Pizza pizza) {
         super(pizza);
     }
 
     @Override
     public void bake() {
         super.bake();
-        System.out.println("Adding Veggie Topping ");
+        System.out.println("Adding Cheese Topping ");
     }
 }

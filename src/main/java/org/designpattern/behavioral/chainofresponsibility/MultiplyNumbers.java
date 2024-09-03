@@ -1,6 +1,6 @@
 package org.designpattern.behavioral.chainofresponsibility;
 
-public class AddNumbers implements Chain{
+public class MultiplyNumbers implements Chain{
 
     private Chain chain;
 
@@ -12,8 +12,10 @@ public class AddNumbers implements Chain{
 
     @Override
     public void Calculate(Numbers number) {
-       if(number.calculationMethod() == "add"){
-           System.out.println("Result is "+  number.num1() + number.num2() );
+       if(number.calculationMethod() == "mul"){
+           System.out.println("Result is "+  number.num1() * number.num2() );
+       }else {
+           chain.Calculate(number);
        }
     }
 }

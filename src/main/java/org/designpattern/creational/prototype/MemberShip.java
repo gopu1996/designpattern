@@ -1,4 +1,4 @@
-package org.designpattern.prototype;
+package org.designpattern.creational.prototype;
 
 public class MemberShip {
 }

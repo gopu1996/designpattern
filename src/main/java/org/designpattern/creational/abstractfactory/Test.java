@@ -1,4 +1,4 @@
-package org.designpattern.abstractfactory;
+package org.designpattern.creational.abstractfactory;
 
 public class Test {
     public static void main(String[] args) {

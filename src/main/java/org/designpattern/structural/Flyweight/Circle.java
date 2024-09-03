@@ -12,13 +12,15 @@ public class Circle extends Shape{
         return label;
     }
 
-    public void setLabel(String label) {
+    public Circle setLabel(String label) {
         this.label = label;
+        return this;
     }
+
+
+
     @Override
-    public void draw(double radius , String fillColor , String lineColor) {
-        System.out.println("Drawing a "+ label +" with radius of "+ radius + " , fillColor " + fillColor + " and line color is "+ lineColor);
+    public void draw(int radius ,  String fillColor, String lineColor) {
+        System.out.println("Drawing a "+label +" with radius "+ radius + " with fillColor of "+fillColor + " and line color is "+lineColor);
     }
-
-
 }

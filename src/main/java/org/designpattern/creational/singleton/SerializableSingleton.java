@@ -1,4 +1,4 @@
-package org.designpattern.singleton;
+package org.designpattern.creational.singleton;
 
 import java.io.Serializable;
 

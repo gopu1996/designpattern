@@ -1,2 +1,6 @@
-package org.designpattern;public class Adapter {
+package org.designpattern.structural.Adapter;
+
+public interface WeatherFinder {
+
+    int find(String city);
 }

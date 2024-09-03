@@ -1,6 +1,4 @@
-package org.designpattern.prototype;
-
-import org.designpattern.prototype.MemberShip;
+package org.designpattern.creational.prototype;
 
 public class Game  implements Cloneable{
 

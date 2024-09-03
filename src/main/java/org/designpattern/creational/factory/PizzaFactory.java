@@ -1,4 +1,4 @@
-package org.designpattern.factory;
+package org.designpattern.creational.factory;
 
 public class PizzaFactory {
 

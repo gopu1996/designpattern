@@ -1,4 +1,4 @@
-package org.designpattern.prototype;
+package org.designpattern.creational.prototype;
 
 public class Test {
     public static void main(String[] args) throws CloneNotSupportedException {

@@ -1,2 +1,15 @@
-package org.designpattern.structural.Decorator;public class PizzaDecorator {
+package org.designpattern.structural.Decorator;
+
+public class PizzaDecorator implements Pizza{
+
+    private Pizza pizza;
+
+    public PizzaDecorator(Pizza pizza){
+        this.pizza =pizza;
+    }
+
+    @Override
+    public void bake() {
+        pizza.bake();
+    }
 }

@@ -1,4 +1,4 @@
-package org.designpattern.Builder;
+package org.designpattern.creational.Builder;
 
 public class Test {
     public static void main(String[] args) {

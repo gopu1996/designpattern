@@ -1,9 +1,9 @@
 package org.designpattern.behavioral.template;
 
-public class XmlRenderer extends DataRenderer{
+public class CsvRenderer extends DataRenderer{
     @Override
     public String readData() {
-        return "XML Data";
+        return "CSV Data";
     }
 
     @Override
